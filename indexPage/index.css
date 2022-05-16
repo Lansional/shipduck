@@ -1,10 +1,17 @@
 #headOfDiv {
-    height: 852px;
-    background-color: aqua
+    height: 800px;
+    background-image: url(https://wallpaperaccess.com/full/6313.jpg);
+    opacity: 0.5;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
 }
 
 #headerText {
-    font-size: 8vw;
+    font-size: 90pt;
+    color: white;
+    text-shadow: 10px 10px 10px black;
     padding-top: 250px;
     text-align: center;
 }
