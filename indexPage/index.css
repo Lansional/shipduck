@@ -1,0 +1,10 @@
+#headOfDiv {
+    height: 852px;
+    background-color: aqua
+}
+
+#headerText {
+    font-size: 8vw;
+    padding-top: 250px;
+    text-align: center;
+}

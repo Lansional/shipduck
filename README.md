@@ -1,6 +1,6 @@
 # 배재대학교 웹 기말 웹 과제
 
-참고 사이트(https://second.startlink.live/#register)
+참고 사이트(https://second.startlink.live/)
 
 # 동아리
 일본문화연구부

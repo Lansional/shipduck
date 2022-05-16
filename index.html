@@ -1,37 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script>
-        function scrollToTop() {
-            //스크롤 속도를 빠르게 하려면 이동 간격 시간을 줄이거나, 이동 크기 픽셀을 늘리면 됩니다.
-            var between = 16; // 이동 간격 시간
-            var scroll = window.setInterval(function () {
-                var pos = window.pageYOffset;
-                var step = 50; // 이동 크기 픽셀
-                if (pos > 0) {
-                    window.scrollTo(0, pos - step);
-                } else {
-                    window.clearInterval(scroll);
-                }
-            }, between);
-        }
-
-        document.addEventListener('DOMContentLoaded', function () {
-            document.getElementById('scrollUp').addEventListener('click', function () {
-                scrollToTop();
-            });
-        });
-    </script>
+    <title>일본문화연구부</title>
+    <link href="indexPage/index.css" rel="stylesheet">
+    <script type="text/javascript" src="indexPage/index.js"></script>
 </head>
 
 <body>
-    <div style="height: 6000px; background-color: aqua;"></div>
-    <input id="scrollUp" type="button" value="asdfasdf">
+    <div id="headOfDiv">
+        <div>
+            <h1 id="headerText"><span class="icon"></span>일본문화연구부</h1>
+        </div>
+    </div>
+    <!-- <input id="scrollUp" type="button" value="asdfasdf"> -->
 </body>
 
 </html>
