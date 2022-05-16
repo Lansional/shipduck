@@ -1,5 +1,5 @@
 #headOfDiv {
-    height: 800px;
+    height: 97vh;
     background-image: url(https://wallpaperaccess.com/full/6313.jpg);
     opacity: 0.5;
     background-repeat: no-repeat;
@@ -9,9 +9,9 @@
 }
 
 #headerText {
-    font-size: 90pt;
+    font-size: 7vw;
     color: white;
     text-shadow: 10px 10px 10px black;
-    padding-top: 250px;
+    padding-top: 25vh;
     text-align: center;
 }
