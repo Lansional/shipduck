@@ -1,4 +1,4 @@
-#headOfDiv {
+#headOfDiv1 {
     height: 97vh;
     background-image: url(https://wallpaperaccess.com/full/6313.jpg);
     opacity: 0.5;
@@ -8,10 +8,49 @@
     overflow: hidden;
 }
 
-#headerText {
-    font-size: 7vw;
+#headerText1 {
+    font-size: 2vw;
     color: white;
     text-shadow: 10px 10px 10px black;
     padding-top: 25vh;
     text-align: center;
+}
+
+#headerText2 {
+    font-size: 7vw;
+    color: white;
+    text-shadow: 10px 10px 10px black;
+    text-align: center;
+}
+
+#application {
+    width: 32pt;
+    height: 64pt;
+    float: right;
+}
+
+#headOfDiv2 {
+    display: flex;
+    height: 50vh;
+    background-color: pink;
+    align-self: center;
+    justify-content: center;
+}
+
+#div2Text {
+    padding-top: 20vh;
+    font-size: 3vw;
+    color: white;
+}
+
+#div3Text {
+    height: 9vh;
+    font-size: 20pt;
+    padding-top: 4.5vh;
+    padding-left: 4vw;
+}
+
+#headOfDiv4 {
+    height: 30vh;
+    background-color: #0f1623;
 }
