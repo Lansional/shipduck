@@ -4,9 +4,106 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>작성자 소개</title>
+    <style>
+        div{
+            box-sizing: border-box;
+        }
+        .container{
+                display: grid; 
+                grid-template-columns: 1fr 1fr;
+                /* grid-auto-rows: minmax(2em,auto); */
+                grid-template-rows: 1fr 1fr 1fr;
+                justify-content: space-around;
+                grid-gap: 10px;
+        }
+        .item{
+            background-color: white; border: 1px solid black;
+            border-radius: 20px;
+            padding: 10px;
+            width: 446px;
+            height: 319px;
+        }
+        .but{
+            float: right;
+            margin-top: 60px;
+            margin-right: 35px;
+            width: 80%;
+            height: 10%;
+            text-align: center;
+            background-color:pink;
+            color: white;
+            border-radius: 20px;
+            padding-top: 5px;
+        }
+        .but:hover{
+            color: black;
+            border: 1px solid gray ;
+            background-color: white;
+        }
+    </style>
 </head>
 <body>
-    asdfasdf
+    <div style=" font-size: 40px; border-style: outset;" >작성자 소개</div>
+     <div class="container">
+         <div class="item">
+            회장:노홍림<br> <img src="노홍림.jpg" style="float: right;" width="150vw" height="150vw">
+           <ul>
+               <li>연락처 </li>
+               <li>E-mail </li>
+           </ul>
+           <div class="but">
+            상세보기
+            </div>
+         </div>
+         <div class="item">
+            부회장:박인훈<br><img src="박인훈.jpg" style="float: right;" width="150vw" height="150vw">
+            <ul>
+                <li>연락처 </li>
+                <li>E-mail </li>
+            </ul>
+            <div class="but">
+                상세보기
+            </div>
+        </div>
+        <div class="item">
+            회장:노홍림<br> <img src="노홍림.jpg" style="float: right;" width="150vw" height="150vw">
+           <ul>
+               <li>연락처 </li>
+               <li>E-mail </li>
+           </ul>
+            <div class="but">
+            상세보기
+            </div>
+         </div>
+         <div class="item">
+            부회장:박인훈<br><img src="박인훈.jpg" style="float: right;" width="150vw" height="150vw">
+            <ul>
+                <li>연락처 </li>
+                <li>E-mail </li>
+            </ul>
+            <div class="but">
+                상세보기
+            </div>    
+        </div>
+        <div class="item">
+            회장:노홍림<br> <img src="노홍림.jpg" style="float: right;" width="150vw" height="150vw">
+           <ul>
+               <li>연락처 </li>
+               <li>E-mail </li>
+           </ul>
+           <div class="but">
+            상세보기
+        </div>
+         </div>
+         <div class="item">
+            부회장:박인훈<br><img src="박인훈.jpg" style="float: right;" width="150vw" height="150vw">
+            <ul>
+                <li>연락처 </li>
+                <li>E-mail </li>
+            </ul>
+            <div class="but">
+                상세보기
+            </div>
 </body>
 </html>
