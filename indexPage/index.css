@@ -9,15 +9,15 @@
 }
 
 #headerText1 {
-    font-size: 2vw;
+    font-size: 30pt;
     color: white;
     text-shadow: 10px 10px 10px black;
-    padding-top: 25vh;
+    padding-top: 20vh;
     text-align: center;
 }
 
 #headerText2 {
-    font-size: 7vw;
+    font-size: 70pt;
     color: white;
     text-shadow: 10px 10px 10px black;
     text-align: center;
@@ -39,7 +39,7 @@
 
 #div2Text {
     padding-top: 20vh;
-    font-size: 3vw;
+    font-size: 20pt;
     color: white;
 }
 
