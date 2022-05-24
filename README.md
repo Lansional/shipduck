@@ -2,8 +2,8 @@
 
 참고 사이트(https://second.startlink.live/)
 
-# 동아리
-일본문화연구부
+# 주제
+가상동아리 : 일본문화연구부
 
 # TODO
 1. 필수: index페이지 

@@ -4,20 +4,22 @@
     opacity: 0.5;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: center center;
     overflow: hidden;
+    transition: all 1.0s linear;
+    /* transform: scale(1.5); */
 }
 
 #headerText1 {
-    font-size: 2vw;
+    font-size: 30pt;
     color: white;
     text-shadow: 10px 10px 10px black;
-    padding-top: 25vh;
+    padding-top: 20vh;
     text-align: center;
 }
 
 #headerText2 {
-    font-size: 7vw;
+    font-size: 70pt;
     color: white;
     text-shadow: 10px 10px 10px black;
     text-align: center;
@@ -39,7 +41,7 @@
 
 #div2Text {
     padding-top: 20vh;
-    font-size: 3vw;
+    font-size: 20pt;
     color: white;
 }
 
@@ -53,4 +55,33 @@
 #headOfDiv4 {
     height: 30vh;
     background-color: #0f1623;
+}
+
+.div4InsideOfText1 {
+    color: #0CD2A4;
+    font-size: 20pt;
+    /* padding-right: 10px; */
+    padding-top: 7vh;
+}
+
+.material-symbols-outlined {
+    float: left;
+    color: white;
+    margin-top: 7vh;
+    margin-left: 7vw;
+    padding-right: 2vw;
+    font-size: 90pt;
+}
+
+.headOfDiv4Divider {
+    width: 47px;
+    padding-top: 2px;
+    background-color: white;
+    float: left;
+}
+
+.div4InsideOfText2 {
+    color: white;
+    font-size: 15pt;
+    padding-top: 6vh;
 }
