@@ -11,7 +11,7 @@
 }
 
 #headerText1 {
-    font-size: 30pt;
+    font-size: 25pt;
     color: white;
     text-shadow: 10px 10px 10px black;
     padding-top: 20vh;
@@ -55,33 +55,60 @@
 #headOfDiv4 {
     height: 30vh;
     background-color: #0f1623;
+    /* position: relative; */
+    display: grid;
+    /* justify-content: space-around; */
+    grid-template-areas:
+        "calendar time position";
 }
 
 .div4InsideOfText1 {
-    color: #0CD2A4;
+    color: pink;
     font-size: 20pt;
     /* padding-right: 10px; */
     padding-top: 7vh;
 }
 
+.container1 {
+    grid-area: "calendar";
+    padding-left: 9vw;
+}
+
 .material-symbols-outlined {
+    margin-top: 7vh;
     float: left;
     color: white;
-    margin-top: 7vh;
-    margin-left: 7vw;
-    padding-right: 2vw;
     font-size: 90pt;
 }
 
 .headOfDiv4Divider {
     width: 47px;
+    float: left;
     padding-top: 2px;
     background-color: white;
-    float: left;
 }
 
 .div4InsideOfText2 {
     color: white;
     font-size: 15pt;
-    padding-top: 6vh;
+}
+
+.container2 {
+    grid-area: "time";
+}
+
+.container3 {
+    grid-area: "position";
+}
+
+#headOfDiv5 {
+    height: 100vh;
+    overflow: hidden;
+}
+
+#headOfDiv5Text1 {
+    color: pink;
+    font-size: 50pt;
+    text-shadow: 1px 1px 1px gray;
+    margin-left: 5vw;
 }
