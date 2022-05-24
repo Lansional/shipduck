@@ -1,112 +1,221 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>작성자 소개</title>
+    <title>임원정보 소개</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" /> <!--공유 아이콘-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" /> <!--프린트 아이콘-->
     <style>
-        div{
-            box-sizing: border-box;
+        header{
+            width: 100%; height: 70px; 
+            font-family:휴먼엑스포; font-weight: 700; font-size: 20px;
+            line-height: 70px; 
+            box-sizing: border-box;  border-bottom: 4px solid pink;
+            display:inline-block; 
         }
-        .container{
-                display: grid; 
-                grid-template-columns: 1fr 1fr;
-                /* grid-auto-rows: minmax(2em,auto); */
-                grid-template-rows: 1fr 1fr 1fr;
-                justify-content: space-around;
-                grid-gap: 10px;
+        .par{
+            display: grid;
+            grid-template-columns: 1fr 6fr;
+            grid-template-areas: 
+            "nav section"; 
+            height: 900px;
+            grid-gap: 20px;
+        }
+        nav{
+            border: 1px;
+            grid-area: nav;
+            font-size:35px ; text-align: center; padding: 10px;
+            height: 100px;
+            width: 80%;
+        }
+        .nav-div{
+            background-color: pink; color: white;
+             width: 100%; height: 100%; 
+            text-align: center;
+        }
+        .nav-div2{
+            background-color: white; color: pink; 
+            width: 100%; height: 170px; 
+            text-align: left;
+            font-size: 1rem;
+            border-bottom: 3px solid pink;
+        }
+        ul{
+           list-style-type:circle; 
+        }
+        a{
+            text-decoration: none; color: white;
+        }
+        #name{
+            text-decoration: none;color: gray;
+        }
+        section{
+            grid-area: section;
+            padding: 20px;
+            display:grid; grid-gap: 10px;
+            grid-template-columns: 1fr 1fr; grid-row: 1fr 1fr 1fr;
+        }
+        .top{
+            width: 100%; height: 50px; 
+            line-height: 15px;
+            font-family:휴먼엑스포; font-weight: 500;
+            box-sizing: border-box;  border-bottom: 2px solid pink;
+            display:inline-block; 
         }
         .item{
-            background-color: white; border: 1px solid black;
-            border-radius: 20px;
+            border: 0.2px solid gray; border-radius: 20px;
             padding: 10px;
-            width: 446px;
-            height: 319px;
+            background-color: white;
+            height: 250px;
+            font-size: 20px;
         }
         .but{
             float: right;
-            margin-top: 60px;
+            margin-top: 50px;
             margin-right: 35px;
             width: 80%;
-            height: 10%;
+            height: 12%;
             text-align: center;
             background-color:pink;
             color: white;
             border-radius: 20px;
-            padding-top: 5px;
+            padding-top: 4px;
+            transition: ease 0.7s;
         }
         .but:hover{
             color: black;
             border: 1px solid gray ;
             background-color: white;
         }
+        .div-footer{
+            background-color:palevioletred ; color: white;
+            width: 97%; height: 220px;
+            padding: 20px;
+            font-family: 휴먼엑스포;
+        }
+        .icon{
+            color: black;
+        }
+</style>
     </style>
 </head>
-
 <body>
-    <div style=" font-size: 40px; border-style: outset;" >작성자 소개</div>
-     <div class="container">
-         <div class="item">
-            회장:노홍림<br> <img src="노홍림.jpg" style="float: right;" width="150vw" height="150vw">
-           <ul>
-               <li>연락처 </li>
-               <li>E-mail </li>
-           </ul>
-           <div class="but">
-            상세보기
+    <header>일본 문화 연구 동아리</header>
+    <div class="top">
+    <h3>
+        <span>
+            임원 소개 
+        <a class="icon" href="#"><span class="material-symbols-outlined" style="float: right;padding: 2px;">share</span></a>
+        <a class="icon" href="#"><span class="material-symbols-outlined"  style="float: right; padding: 2px;">print</span></a>
+        </span>
+    </h3>
+    </div>
+    <div class="par">
+        <nav>
+            <div class="nav-div">
+                임원 소개
             </div>
-         </div>
-         <div class="item">
-            부회장:박인훈<br><img src="박인훈.jpg" style="float: right;" width="150vw" height="150vw">
-            <ul>
-                <li>연락처 </li>
-                <li>E-mail </li>
-            </ul>
-            <div class="but">
-                상세보기
+            <div class="nav-div2">
+                임원소개
+               <ul>
+                <a href="#" id="name"><li>노홍림 회장</li></a>
+                <a href="#" id="name"><li>박인훈 부회장</li></a>
+                <a href="#" id="name"><li>문상</li></a>
+                <a href="#" id="name"><li>오타쿠</li></a>
+                <a href="#" id="name"><li>박대기</li></a>
+                <a href="#" id="name"><li>니홍진</li></a>
+               </ul>
             </div>
-        </div>
-        <div class="item">
-            회장:노홍림<br> <img src="노홍림.jpg" style="float: right;" width="150vw" height="150vw">
-           <ul>
-               <li>연락처 </li>
-               <li>E-mail </li>
-           </ul>
-            <div class="but">
-            상세보기
+        </nav>
+        <section>
+            <div>
+                <div class="item">
+                   회장 : 노홍림<br>  <img src="노홍림.jpg" width="100px" style="float:right; " >
+                  <ul>
+                      <li>연락처 : 010-9757-1646 </li>
+                      <li>E-mail : cbg1720@gmail.com</li>
+                      <li>소속학과 : 인터넷소프트웨어학과</li>
+                  </ul>
+                  <a href="#"><div class="but">
+                   상세보기
+                   </div></a>
+                </div>
             </div>
-         </div>
-         <div class="item">
-            부회장:박인훈<br><img src="박인훈.jpg" style="float: right;" width="150vw" height="150vw">
-            <ul>
-                <li>연락처 </li>
-                <li>E-mail </li>
-            </ul>
-            <div class="but">
-                상세보기
-            </div>    
-        </div>
-        <div class="item">
-            회장:노홍림<br> <img src="노홍림.jpg" style="float: right;" width="150vw" height="150vw">
-           <ul>
-               <li>연락처 </li>
-               <li>E-mail </li>
-           </ul>
-           <div class="but">
-            상세보기
-        </div>
-         </div>
-         <div class="item">
-            부회장:박인훈<br><img src="박인훈.jpg" style="float: right;" width="150vw" height="150vw">
-            <ul>
-                <li>연락처 </li>
-                <li>E-mail </li>
-            </ul>
-            <div class="but">
-                상세보기
+            <div>
+                <div class="item">
+                   부회장 : 박인훈<br> <img src="박인훈.jpg" width="100px" style="float:right;" >
+                  <ul>
+                      <li>연락처 : 010-4160-2817 </li> 
+                      <li>E-mail : parkinhoon@gmail.com </li>
+                      <li>소속학과 : 인터넷소프트웨어학과</li>
+                  </ul>
+                  <a href="#"><div class="but">
+                    상세보기
+                    </div></a>
+                </div>
             </div>
+            <div >
+                <div class="item">
+                   임원 : 문상<br> <img src="https://cdnweb01.wikitree.co.kr/webdata/editor/202108/20/img_20210820103013_4249f56f.webp" width="100px" style="float:right;" >
+                  <ul>
+                      <li>연락처 : 010-1234-1234 </li> 
+                      <li>E-mail : cultureland@gmail.com </li>
+                      <li>소속학과 : 문상제조학과</li>
+                  </ul>
+                  <a href="#"><div class="but">
+                    상세보기
+                    </div></a>
+                </div>
+            </div>
+            <div >
+                <div class="item">
+                   임원 : 오타쿠<br> <img src="노홍림엽사2.jpg" width="100px" style="float:right;" >
+                  <ul>
+                      <li>연락처 : 010-4321-4321 </li> 
+                      <li>E-mail : ohtaku@gmail.com </li>
+                      <li>소속학과 : 일본이좋아학과</li>
+                  </ul>
+                  <a href="#"><div class="but">
+                    상세보기
+                    </div></a>
+                </div>
+            </div>
+            <div >
+                <div class="item">
+                   임원 : 박대기<br> <img src="https://cdn.ppomppu.co.kr/zboard/data3/2021/0816/20210816184433_ruofncom.jpg" width="100px" style="float:right;" >
+                  <ul>
+                      <li>연락처 : 010-4567-4567 </li> 
+                      <li>E-mail : waitingpark@gmail.com </li>
+                      <li>소속학과 : 대기타면서뭐학과?</li>
+                  </ul>
+                  <a href="#"><div class="but">
+                    상세보기
+                    </div></a>
+                </div>
+            </div>
+            <div >
+                <div class="item">
+                   임원 : 니홍진<br> <img src="홍석준2.jpg" width="100px" style="float:right;" >
+                  <ul>
+                      <li>연락처 : 010-9876-9876 </li> 
+                      <li>E-mail : hongsukjun@gmail.com </li>
+                      <li>소속학과 : 인터넷소프트웨어학과</li>
+                  </ul>
+                  <a href="#"><div class="but">
+                    상세보기
+                    </div></a>
+                </div>
+            </div>  
+        </section>
+    </div>
+    <div class="div-footer">
+        <span> <a href="https://www.acmicpc.net/terms" style="color:darkblue ;">개인정보처리방침</a>      |       <a href="https://www.seoul.go.kr/helper/media.do">영상정보처리기기운영관리방침</a> </span> 
+        <span style="float:right;"><a href="#">동아리실안전교육</a>    |      <a href="#">동아리실안전관리안내</a>     |      <a href="#">동아리실안전교육자료실</a></span>
+        <br><br><br><br> <span>(35345) 대전광역시 서구 배재로 155-40 배재대학교 정보과학관(C)</span>
+        <br><br><br> <span>TEL. 042-123-1234</span>
+        <br><br><br> <span>Copyright © Pai Chai University. All Right Reserved.</span>
+    </div>
 </body>
-
 </html>
