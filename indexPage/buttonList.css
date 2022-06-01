@@ -6,6 +6,7 @@
     background-size: cover;
     background-position: center center;
     overflow: hidden;
+    
     /* display: grid;
     align-content: center;
     grid-template-areas: 
@@ -15,20 +16,24 @@
 }
 
 .buttonList {
-    cursor: pointer;
     width: 120px;
     height: 50px;
     font-size: 12pt;
     /* border-radius: 50%; */
     border-radius: 50px;
     border: 2px solid black;
-    margin-top: 30px;
+    margin: 0 auto;
+    /* margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+    display: inline-block; */
     /* opacity: 0.7; */
 }
 
 .buttonList:nth-child(1) {
     grid-area: lhl;
-    margin-left: 160px;
+    /* margin-left: 25vw; */
 }
 
 .buttonList:nth-child(2) {
