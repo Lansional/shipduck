@@ -132,7 +132,7 @@
 
 .textLeft {
     width: 35vw;
-    height: 130px;
+    height: 140px;
     margin-left: 5vw;
     float: left;
     background-color: black;
@@ -144,12 +144,12 @@
 
 .textRight {
     width: 35vw;
-    height: 130px;
+    height: 140px;
     margin-right: 5vw;
     float: right;
     background-color: black;
     border-radius: 10px;
-    
+
     /* border-radius: 10px 20px 30px 10px / 50px 60px 70px 80px; */
 }
 
@@ -175,4 +175,15 @@
 .div5Text {
     color: white;
     margin-left: 15px;
+}
+
+#makeOfDiv6 {
+    display: flex;
+    background-image: url(https://wallpaperaccess.com/full/6102114.jpg);
+    opacity: 0.5;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    overflow: hidden;
+    height: 60vh;
 }
