@@ -6,9 +6,13 @@
     background-size: cover;
     background-position: center center;
     overflow: hidden;
-    transition: all 1.0s linear;
-    /* transform: scale(1.5); */            /* 가까이 하는 애니메이션 작동 */
 }
+
+/* #headOfDiv1::before,
+#headOfDiv1:focus {
+    transform: scale(1.5);
+
+} */
 
 #headerText1 {
     font-size: 25pt;
@@ -23,6 +27,22 @@
     color: white;
     text-shadow: 10px 10px 10px black;
     text-align: center;
+}
+
+#apply {
+    text-align: center;
+    font-size: 20pt;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#applyButton {
+    padding-top: 5px;
+    width: 200px;
+    height: 40px;
+    margin: auto;
+    border-radius: 50px;
+    border: 5px solid black;
 }
 
 #headOfDiv2 {
@@ -150,7 +170,6 @@
     float: right;
     background-color: black;
     border-radius: 10px;
-
     /* border-radius: 10px 20px 30px 10px / 50px 60px 70px 80px; */
 }
 
