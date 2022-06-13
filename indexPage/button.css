@@ -1,0 +1,51 @@
+#wrapper {
+    overflow: hidden;
+    height: 400px;
+}
+
+#makeOfDiv6 {
+    display: flex;
+    background-image: url(https://wallpaperaccess.com/full/6102114.jpg);
+    opacity: 0.5;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-color: black;
+    height: 100%;
+}
+
+.toSecondPageButton {
+    /* width: 450px; */
+    width: 400px;
+    margin: auto;
+    height: 60px;
+    font-size: 19pt;
+    /* margin-left: 32vw;
+    margin-top: 20vh; */
+    font-weight: bold;
+    padding-top: 20px;
+    color: black;
+    /* text-shadow: 0 0 6px black; */
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0 3px 3px grey;
+    border: 4px solid black;
+    border-radius: 50px;
+}
+
+.toSecondPageButton::before {
+    /* content: ""; */
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(52, 73, 94, 0.75);
+}
+
+#makeOfDiv6:hover {
+    /* #makeOfDiv6:h */
+    transition: all 0.9s;
+    transform: scale(1.2);
+}
