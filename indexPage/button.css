@@ -34,7 +34,7 @@
 }
 
 .toSecondPageButton::before {
-    content: "";
+    /* content: ""; */
     display: none;
     height: 100%;
     width: 100%;
@@ -46,6 +46,6 @@
 
 #makeOfDiv6:hover {
     /* #makeOfDiv6:h */
-    transition: all .5s;
+    transition: all 0.9s;
     transform: scale(1.2);
 }

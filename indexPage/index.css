@@ -117,7 +117,6 @@
 
 #headOfDiv5 {
     height: 950px;
-    /* float: left; */
     overflow: hidden;
 }
 
@@ -195,4 +194,10 @@
 .div5Text {
     color: white;
     margin-left: 15px;
+}
+
+#makeOfDiv7 {
+    background-color: black;
+    height: 413px;
+    overflow: hidden;
 }
