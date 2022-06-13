@@ -1,3 +1,17 @@
-.body {
+body {
     background-color: pink;
+}
+
+#headBox {
+    height: 160px;
+    width: 750px;
+    background-color: white;
+    margin: auto;
+    box-shadow: 2px 2px 1px gray;
+    border-radius: 10px;
+    border-top: 10px solid palevioletred;
+}
+
+#headOfText {
+    margin-left: 20px;
 }

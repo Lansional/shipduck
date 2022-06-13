@@ -15,7 +15,7 @@ function scrollToTop() {
 }
 
 document.addEventListener('DOMContentLoaded', function () {
-    document.getElementById('scrollUp').addEventListener('click', function () {
+    document.getElementById('scrollUp').addEventListener('reback', function () {
         scrollToTop();
     });
 });
