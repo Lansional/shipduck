@@ -2,16 +2,71 @@ body {
     background-color: pink;
 }
 
-#headBox {
-    height: 160px;
-    width: 750px;
+div {
+    width: 700px;
     background-color: white;
     margin: auto;
     box-shadow: 2px 2px 1px gray;
     border-radius: 10px;
+    margin-top: 15px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+#headBox {
+    height: 150px;
     border-top: 10px solid palevioletred;
 }
 
 #headOfText {
     margin-left: 20px;
+}
+
+#namebox{
+    height: 138px;
+    
+}
+#numberbox{
+    height: 138px;
+}
+#phonebox{
+    height: 138px;
+}
+#emailbox{
+    height: 138px;
+}
+#reasonbox{
+    height: 138px;
+}
+input{
+   margin-top: 30px; 
+   margin-left: 100px;
+   border-top: none;
+   border-right: none;
+   border-left: none;
+   width: 500px;
+}
+#button{
+    border-radius: 10px;
+    width: 90px;
+    height: 30px;
+    margin-left: 400px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background-color: white;
+    padding-top: 10px;
+}
+a{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+
+p {
+    padding-top: 20px;
+    padding-left: 10px;
 }
